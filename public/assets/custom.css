@@ -1,0 +1,351 @@
+@font-face{
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'trirong-medium-webfont';
+    src: url('fonts/trirong-medium-webfont.eot');
+    src: url('fonts/trirong-medium-webfont.eot#iefix') format('embedded-opentype'),
+    url('fonts/trirong-medium-webfont.woff') format('woff'),
+    url('fonts/trirong-medium-webfont.ttf') format('truetype'),
+    url('fonts/trirong-medium-webfont.svg#trirong-medium-webfont') format('svg');
+}
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'trirong-regular-webfont';
+    src:url('fonts/trirong-regular-webfont.eot');
+    src:url('fonts/trirong-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/trirong-regular-webfont.woff') format('woff'),
+    url('fonts/trirong-regular-webfont.ttf') format('truetype'),
+    url('fonts/trirong-regular-webfont.svg#trirong-regular-webfont') format('svg');
+}
+
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'trirong-light-webfont';
+    src:url('fonts/trirong-light-webfont.eot');
+    src:url('fonts/trirong-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/trirong-light-webfont.woff') format('woff'),
+    url('fonts/trirong-light-webfont.ttf') format('truetype'),
+    url('fonts/trirong-light-webfont.svg#trirong-light-webfont') format('svg');
+}
+
+body {
+    /*padding-bottom: 40px;*/
+
+}
+
+.container-non-responsive{
+    margin: 0px;
+}
+
+.top_menu_img{
+    width: 100%;
+}
+
+.navbar_header{
+    /*background: #c7b972;*/
+    background: url("images/gingo002.png");
+    padding: 15px; /* old value = 10*/
+    color: #fff;
+    text-align: center;
+}
+
+.translate_menu{
+    text-align: center;
+}
+
+.navbar_menu{
+    /*text-shadow: 3px 2px 2px rgba(150, 150, 150, 1);*/
+    /*text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF8000, 0 0 30px #FF8000, 0 0 40px #FF8000, 0 0 55px #FF8000, 0 0 75px #FF8000*/
+}
+
+.header_name{
+    font-size: 40px;
+    font-family: 'trirong-medium-webfont';
+    text-align: left;
+    padding: 20px 20px 0px 20px;
+    /*padding: 20px 20px 20px 70px;*/
+    /*text-shadow: 3px 2px 0px rgba(150, 150, 150, 1);*/
+    /*text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;*/
+    text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px;
+}
+
+
+.footer_img{
+    width: 24px;
+    height: 24px;
+    margin-top: -15px;
+}
+
+.footer_img_group img{
+    width: 32px;
+    height: 32px;
+}
+
+.no-padding{
+    padding: 0px;
+}
+
+.padding-15{
+    /*padding-bottom: 15px;*/
+}
+
+.padding-10{
+    padding: 10px;
+}
+
+.navbar_footer{
+    /*background: #c7b972;*/
+    background: url("images/gingo002.png");
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer_name{
+    font-family: 'trirong-medium-webfont';
+    font-size: 18px;
+}
+
+/* Home Content Page Style */
+.body_about_us{
+    padding: 20px 31px 40px 31px;
+    text-align: left;
+    background-color: #f9fce6;
+}
+
+.body_service{
+    padding: 40px 31px 20px 31px;
+    text-align: left;
+    background-color: #e2fbe5;
+}
+
+.body_news{
+    padding: 20px 31px;
+    text-align: left;
+}
+
+.new_panel_left{
+    background: #fbf3e9;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.new_left_content{
+    padding-top: 15px;
+    /*padding-bottom: 30px;*/
+    padding-bottom: 17px;
+}
+
+.new_panel_right{
+    background: #fbf3e9;
+}
+
+.news_right_content{
+    padding: 15px
+}
+
+.news_grid{
+    margin-bottom: 15px
+}
+
+.article_news_content{
+    color: #534741;
+}
+
+.article_name_about_us{
+    color: #f26d7d;
+    font-size: 28px;
+    line-height: 60px;
+}
+
+.article_name_service{
+    color: #f26d7d;
+    font-size: 28px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.article_content{
+    color: #534741;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.under_line{
+    /*border-bottom: 1px solid #ff8924;*/
+    border-bottom: 1px solid #c7b972;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.room_fac_type{
+    color: #534741;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.google-translate-border{
+    /*border: 1px solid #fff;*/
+    margin-top: -3px;
+    text-align: right;
+    width: 110%;
+}
+
+.border-left{
+    border-left: 1px solid #fff;
+}
+
+a:hover .language-link {
+    text-decoration: none;
+    /*border: 1px solid #ec971f;*/
+    border: 1px solid #C5B358;
+    color: #fff;
+    background: #C5B358	;
+    /*background: #ec971f;*/
+}
+
+.article_link {
+    color: #1200ff;
+}
+
+.entry-content-br3 {
+    border-bottom: 3px solid coral;
+}
+
+.entry-content-br1 {
+    border-bottom: 1px solid coral;
+}
+
+
+/* End Home Content Page Style */
+
+
+
+/* Start Care Giver Content Page Style */
+
+.body_care{
+    padding: 20px 31px;
+    color: #534741;
+    text-align: left;
+    /*background: url("images/long-term1.jpg");*/
+}
+
+.article_name_care{
+    font-size: 28px;
+    padding-bottom: 15px;
+    font-family: 'trirong-medium-webfont';
+}
+
+.article_care_content{
+    background: #f9fce6;
+    padding: 15px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.care_img img{
+    height: 300px;
+}
+
+.care_type{
+
+}
+.care_type p{
+    font-size: 25px;
+}
+
+.tab{
+    text-indent: 2.5em;
+}
+
+/* End Care Giver Content Page Style */
+
+
+/* Start Rooms and Facility Content Page Style */
+
+.article_room_content{
+    color: #534741;
+    padding: 15px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: left;
+}
+
+/* End Rooms and Facility Content Page Style */
+
+
+@media (max-width: 767px) {
+    .top_menu_img{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+/* responsive navbar menu 1 */
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    /*background-color: #333;*/
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: 'trirong-medium-webfont';
+}
+
+ul.topnav li a:hover {
+    /*background-color: #555;*/
+    background: #ec971f;
+}
+
+ul.topnav li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width:680px) {
+    ul.topnav.responsive {position: relative;}
+    ul.topnav.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    ul.topnav.responsive li {
+        float: none;
+        display: inline;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+}
+
+/* end responsive navbar menu 1 */
+
+/* Responsive Navbar Menu 2 */
+
+.navbar-menu-font ul li a{
+    font-family: 'trirong-medium-webfont';
+    font-size: 20px;
+    text-transform: uppercase;
+}
+/* End Responsive Navbar Menu 2 */
