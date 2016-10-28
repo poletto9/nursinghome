@@ -30,7 +30,7 @@
                                     <i class="pull-left ion-ios7-location-outline fa-2x text-muted"></i>
                                     <div class="media-body">
                                         <address>
-                                            <strong>{{ trans('contact_page.con_name') }}์</strong><br>
+                                            <strong>{{ trans('contact_page.con_name') }}</strong><br>
                                             {{ trans('contact_page.con_address_1') }}
                                             <br>
                                             {{ trans('contact_page.con_address_2') }}
@@ -93,7 +93,7 @@
                             <div class="media">
                                 <div class="media-body">
                                     <?php
-                                        if( \Illuminate\Support\Facades\Session::get('locale') == 'th'){ ?>
+                                        if( \Illuminate\Support\Facades\Session::get('locale') == 'th' || \Illuminate\Support\Facades\Session::get('locale') == ''){ ?>
                                         <a class="fancybox-effects-a" href="{{ url('assets/images/Map1.jpg') }}">
                                             <img src="{{ url('assets/images/Map1.jpg') }}" alt="">
                                         </a>
@@ -123,7 +123,7 @@
                                     </p>
                                 </div>
                                 <div class="article_content"><strong>{{ trans('contact_page.line') }}</strong></div>
-                                <div><img src="{{url('assets/images/line_id.png')}}"></div>
+                                <div><a href="https://line.me/R/ti/p/%40mzm5743z" target="_blank"><img src="{{url('assets/images/line_id.png')}}"></a></div>
                             </div>
                         </div>
                         <!-- CONTACT OPTION 2 END -->
