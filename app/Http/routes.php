@@ -17,6 +17,7 @@ Route::get('care-giver','Website\HomeController@care_giver');
 Route::get('rooms','Website\HomeController@rooms');
 Route::get('facility','Website\HomeController@facility');
 Route::get('contact-us','Website\HomeController@contact');
+Route::post('contact-us','Website\HomeController@postcontact');
 Route::get('contact-request','Website\HomeController@contact_request');
 Route::get('thank-you-for-contact','Website\HomeController@thank_contact');
 

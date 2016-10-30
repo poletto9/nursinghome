@@ -2,6 +2,8 @@
 
 @section('main')
 
+
+
         <!-- CONTACT START -->
         <section id="contact">
             <div class="container" id="contact-details-wrapper">
@@ -57,7 +59,8 @@
 
 
                             <!-- CONTACT FORM START -->
-                            <form role="form" id="contact-form" action="{{ url('contact-request') }}" method="get" onsubmit="return validateForms()" enctype="multipart/form-data">
+                            <form role="form" id="contact-form" action="{{ url('contact-us') }}" method="POST" onsubmit="return validateForms()" enctype="multipart/form-data">
+                                {{ csrf_field() }}
                                 <div class="form-group">
                                     <input type="text" class="form-control" name="name" id="name" placeholder="{{ trans('contact_page.name') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.name') }}'">
                                 </div>
@@ -67,14 +70,14 @@
                                 <div class="form-group">
                                     <textarea class="form-control" rows="8" name="message" id="message" placeholder="{{ trans('contact_page.message') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.message') }}'"></textarea>
                                 </div>
-                                <div class="form-group">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox" value="1" name="newsletter" id="newsletter" checked style="float: none;">
-                                            {{ trans('contact_page.copy') }}
-                                        </label>
-                                    </div>
-                                </div>
+                                {{--<div class="form-group">--}}
+                                    {{--<div class="checkbox">--}}
+                                        {{--<label>--}}
+                                            {{--<input type="checkbox" value="1" name="newsletter" id="newsletter" checked style="float: none;">--}}
+                                            {{--{{ trans('contact_page.copy') }}--}}
+                                        {{--</label>--}}
+                                    {{--</div>--}}
+                                {{--</div>--}}
                                 <div class="form-group">
                                     {{--<a class="btn btn-orange btn-half-block" id="submit-contact-form">Send</a>--}}
                                     {{--<a class="btn btn-orange" id="submit-contact-form">Send</a>--}}
