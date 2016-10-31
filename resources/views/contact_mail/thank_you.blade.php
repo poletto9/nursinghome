@@ -2,11 +2,19 @@
 
 @section('main')
 
-    <div class="article_content">
-        <div>Thank You For Your Contact</div>
+    <div class="thx_content">
         <div>
-            We will check this is a new introduction to our team and confirm<br>
-            acceptance of the information within 1 day.
+            {{ trans('index_page.thx_1') }}
+        </div>
+        <div>
+            {{ trans('index_page.thx_2') }}<br>
+            {{ trans('index_page.thx_3') }}
+        </div>
+        <div>
+            <div style="text-align: center">
+                <a href="{{ url('contact-us') }}" class="btn btn-link btn-default">{{ trans('index_page.btn_back') }} <i class="fa fa-angle-right"></i></a>
+            </div>
         </div>
     </div>
+
 @stop

@@ -273,6 +273,15 @@ a:hover .language-link {
     text-align: left;
 }
 
+.thx_content{
+    color: #534741;
+    padding: 15px;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    border: solid 15px #c7b972;
+}
+
 /* End Rooms and Facility Content Page Style */
 
 

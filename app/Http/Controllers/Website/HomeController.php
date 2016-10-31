@@ -57,16 +57,19 @@ class HomeController extends Controller{
 
         # email options
         $Option['FROM_MAIL']="postmaster@sandboxbc7d90120525484b948a2a3b6aa56c3d.mailgun.org";
-        $Option['FROM_NAME']="MyMailGun";//any name you want it to appear
+        $Option['FROM_NAME']="aecnursinghome MailGun";//any name you want it to appear
 //        $Option['TO_MAIL']="aecnursinghome.th@gmail.com";
 //        $Option['TO_NAME']="aecnursinghomethailand";
         $Option['TO_MAIL']="thinkactivecnx@gmail.com";
-        $Option['TO_NAME']="Thinkactive";
+        $Option['TO_NAME']="ThinkactiveCNX";
         //$Option['CC_MAIL']=$email;
         //$Option['CC_NAME']=$name;
-        $Option['SUBJECT']="aecnursinghome contact mail from customer";
-        $Option['BODY_TEXT']="Contact Name: A.E.C. Nursing Home Thailand"."<br>"."Contact Email: aecnursinghome.th@gmail.com"."<br>"."Customer Name: ".$name."<br>"."Customer Email: ".$email."<br>"."Message: ".$message;// if html is not supported then use text message instead
-        $Option['BODY_HTML']="<b style='color:#000000'><div>Contact Name: A.E.C. Nursing Home Thailand</div><div>Contact Email: aecnursinghome.th@gmail.com</div><div>Customer Name: ".$name."</div><div>Customer Email: ".$email."</div><div>Message: ".$message."</div></b>";
+        $Option['SUBJECT']="contact mail from customer";
+        $Option['BODY_TEXT']="Customer Name: ".$name."<br>"."Customer Email: ".$email."<br>"."Message: ".$message;// if html is not supported then use text message instead
+        $Option['BODY_HTML']="<b style='color:#000000'><div>Customer Name: ".$name."</div><div>Customer Email: ".$email."</div><div>Message: ".$message."</div></b>";
+
+//        $Option['BODY_TEXT']="Contact Name: A.E.C. Nursing Home Thailand"."<br>"."Contact Email: aecnursinghome.th@gmail.com"."<br>"."Customer Name: ".$name."<br>"."Customer Email: ".$email."<br>"."Message: ".$message;// if html is not supported then use text message instead
+//        $Option['BODY_HTML']="<b style='color:#000000'><div>Contact Name: A.E.C. Nursing Home Thailand</div><div>Contact Email: aecnursinghome.th@gmail.com</div><div>Customer Name: ".$name."</div><div>Customer Email: ".$email."</div><div>Message: ".$message."</div></b>";
 
 
         ###########################
@@ -74,7 +77,13 @@ class HomeController extends Controller{
         ###########################
 
         # Include the Autoloader
+
+        // localhhost
         require '../vendor/autoload.php';
+
+        // on steam
+        //require '/home/aecnursing/domains/aecnursinghomethailand.com/laravel/vendor/autoload.php';
+
 
         # Instantiate the client with option to disable ssl verfication.
         $client = new \GuzzleHttp\Client([
@@ -99,15 +108,12 @@ class HomeController extends Controller{
             'html'    => $Option['BODY_HTML'],
         ));
         # result will return as object //lets test it
-        var_dump($result);
+        //var_dump($result);
 
         Session::flash('success', 'Your Email was Sent!');
 
-        return back()->withInput();
-    }
-
-    public function test(){
-        return View::make('test.index');
+//        return back()->withInput();
+        return View::make('contact_mail.thank_you');
     }
 
     public function contact_request(){

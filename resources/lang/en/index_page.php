@@ -35,9 +35,12 @@ return [
     'article_22' => 'Step 5: Choose a Well-Run Facility',
     'article_23' => 'The internet is a great resource for reviews and ratings of specific facilities. Try a search for “assisted living facility ratings [name of city]”, or search for the specific name of the facility you’re considering. For skilled nursing facilities, Medicare provides detailed statistics and ratings at their website: Nursing Home Compare. At the website look for facilities with 5-star ratings and/or high staff hours per resident. Healthcare professionals who visit multiple facilities on a regular basis—like nurses and therapists from home health agencies—will have excellent insight about the quality of specific facilities. Consider calling a home health agency and asking to talk with one of their professionals. Doctors and hospital discharge planners are also good sources of information. Finally, nothing beats a tour of the facility. Visit the facility with someone you trust so you get their impressions—and take Mom or Dad along if possible. A good tour will include all areas of the facility, including bedrooms, activity areas, and dining rooms. Ask about the menu, how often activities are held, and what kinds of activities are provided. Don’t be afraid to introduce yourself to some of the residents and ask their opinions of the facility—most seniors will be happy you asked and they’re not afraid to give you an honest opinion. I’d love to hear about your own experience, so please leave a comment in the comments box. Blog posts at this site will cover many other aspects of senior care, nursing, and therapy. I invite you to subscribe to this blog.',
     'article_24' => 'Reference',
-    'article_25' => '',
     'read_more' => '(Read more...)',
     'name' => 'A.E.C. Nursing Home Thailand',
     'address_1' => '17 soi Ladprao 64 Yak 4, Wang Tong-lang,',
     'address_2' => 'Wang Tong-lang district, Bangkok 10310',
+    'thx_1' => 'Thank You For Your Contact',
+    'thx_2' => 'We will check this is a new introduction to our team and confirm',
+    'thx_3' => 'acceptance of the information within few hours.',
+    'btn_back' => 'Go to Contact us page',
 ];
