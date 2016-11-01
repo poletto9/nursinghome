@@ -50,18 +50,32 @@ class HomeController extends Controller{
         ####### init Config #######
         ###########################
 
+        /**
+         * thinkactivecnx mailgun
+         */
         #api key and domain (from mailgun.com panel)
-        $secretkey='key-6b30e26007a9580ea808297c75368f32';
-        //source domain (you can add your own domain at mailgun panel and use it)
-        $domain = "sandboxbc7d90120525484b948a2a3b6aa56c3d.mailgun.org";
+        //$secretkey='key-6b30e26007a9580ea808297c75368f32';
+        #source domain (you can add your own domain at mailgun panel and use it)
+        //$domain = "sandboxbc7d90120525484b948a2a3b6aa56c3d.mailgun.org";
 
         # email options
-        $Option['FROM_MAIL']="postmaster@sandboxbc7d90120525484b948a2a3b6aa56c3d.mailgun.org";
+        //$Option['FROM_MAIL']="postmaster@sandboxbc7d90120525484b948a2a3b6aa56c3d.mailgun.org";
+
+        /**
+         * aecnursinghome mailgun
+         */
+        #api key and domain (from mailgun.com panel)
+        $secretkey='key-8149afe51e31337a6c273908bba95afb';
+        //source domain (you can add your own domain at mailgun panel and use it)
+        $domain = "sandbox31d284f90769435888b8f55d87732bfa.mailgun.org";
+
+        # email options
+        $Option['FROM_MAIL']="postmaster@sandbox31d284f90769435888b8f55d87732bfa.mailgun.org";
         $Option['FROM_NAME']="aecnursinghome MailGun";//any name you want it to appear
-//        $Option['TO_MAIL']="aecnursinghome.th@gmail.com";
-//        $Option['TO_NAME']="aecnursinghomethailand";
-        $Option['TO_MAIL']="thinkactivecnx@gmail.com";
-        $Option['TO_NAME']="ThinkactiveCNX";
+        $Option['TO_MAIL']="aecnursinghome.th@gmail.com";
+        $Option['TO_NAME']="aecnursinghomethailand";
+//        $Option['TO_MAIL']="thinkactivecnx@gmail.com";
+//        $Option['TO_NAME']="ThinkactiveCNX";
         //$Option['CC_MAIL']=$email;
         //$Option['CC_NAME']=$name;
         $Option['SUBJECT']="contact mail from customer";
@@ -79,10 +93,10 @@ class HomeController extends Controller{
         # Include the Autoloader
 
         // localhhost
-        require '../vendor/autoload.php';
+        //require '../vendor/autoload.php';
 
         // on steam
-        //require '/home/aecnursing/domains/aecnursinghomethailand.com/laravel/vendor/autoload.php';
+        require '/home/aecnursing/domains/aecnursinghomethailand.com/laravel/vendor/autoload.php';
 
 
         # Instantiate the client with option to disable ssl verfication.
