@@ -3710,6 +3710,8 @@ a.overlay.small i {
 .navbar-default .navbar-toggle {
 	/*border-color: #ccc;*/
 	border-color: #fff ;
+	font-family: 'trirong-medium-webfont';
+	font-size: large;
 }
 
 /* mobile menu toggle button on hover/focus */

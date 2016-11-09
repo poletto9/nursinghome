@@ -354,6 +354,9 @@ a.overlay i {
 .navbar-default .navbar-toggle:focus {
 	background-color: #fafafa;
 	border-color: #a38d38;
+	color: #a38d38;
+	font-family: 'trirong-medium-webfont';
+	font-size: large;
 }
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar {

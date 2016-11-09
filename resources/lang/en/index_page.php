@@ -43,4 +43,5 @@ return [
     'thx_2' => 'We will check this is a new introduction to our team and confirm',
     'thx_3' => 'acceptance of the information within few hours.',
     'btn_back' => 'Go to Contact us page',
+    'menu' => 'MENU',
 ];
