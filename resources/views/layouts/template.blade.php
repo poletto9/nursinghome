@@ -146,7 +146,7 @@
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="glyphicon glyphicon-menu-hamburger">{{ trans('index_page.menu') }}</span>
+                            <span><b>{{ trans('index_page.menu') }}</b></span>
                         </button>
                     </div>
                     <div class="collapse navbar-collapse navbar-menu-font" id="myNavbar">

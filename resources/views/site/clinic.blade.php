@@ -66,6 +66,7 @@
                         <li class="under_line">• {{ trans('service_page.service_7') }}</li>
                         <li class="under_line">• {{ trans('service_page.service_8') }}</li>
                         <li class="under_line">• {{ trans('service_page.service_9') }}</li>
+                        <li class="under_line">• {{ trans('service_page.service_10') }}</li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-1">

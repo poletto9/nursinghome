@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'care_head' => 'Caregiver',
+	'care_head' => 'Caregivers',
 	'care_desc' => 'Delivery staff, aged care facilities and home-based employees with the knowledge and training, child care and elder care. And received a certificate from the Ministry of Education. Rates are as follows:',
 	'care_1' => 'Babysitting',
 	'care_1_desc' => "Take care of your professional needs. Child care from birth to child care staff who graduated from schools that have been approved by the Ministry of Education. Resident's family or employer morning - back.",

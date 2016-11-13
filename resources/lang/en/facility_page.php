@@ -1,7 +1,7 @@
 <?php
 
 return [
-	'fac_head' => 'Facility',
+	'fac_head' => 'Facilities',
 	'fac_cafe' => 'Café',
 	'fac_cafe_desc' => 'Serving healthy food that suitable for elder, patient  and other people.',
 	'fac_pool' => 'Pool',

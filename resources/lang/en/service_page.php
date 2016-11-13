@@ -11,4 +11,5 @@ return [
 	'service_7' => 'Office worker care program',
 	'service_8' => 'Knee joint care program.',
 	'service_9' => 'Weight loss program.',
+	'service_10' => 'Holistic health with nutrition, particularly diabetes.',
 ];
