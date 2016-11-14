@@ -208,7 +208,7 @@
         <div class="footer_img_group">
             <a href="https://line.me/R/ti/p/%40mzm5743z" target="_blank"><img src="{{ url('assets/images/line.png') }}"></a>
             <a class="article_link" href="mailto:aecnursinghome.th@gmail.com"><img src="{{ url('assets/images/email.png') }}"></a>
-            <a href="https://www.google.co.th/maps/place/A.E.C.+School+(ASIA+ELDERLY+%26+CHILD+CARE+SCHOOL/@13.7889795,100.594976,17z/data=!4m12!1m6!3m5!1s0x30e29de8000443ed:0x708c13476fedd5bd!2sA.E.C.+School+(ASIA+ELDERLY+%26+CHILD+CARE+SCHOOL!8m2!3d13.7889743!4d100.5971647!3m4!1s0x30e29de8000443ed:0x708c13476fedd5bd!8m2!3d13.7889743!4d100.5971647!6m1!1e1" target="_blank"><img src="{{ url('assets/images/location.png') }}"></a>
+            <a href="https://www.google.com/maps/place/AEC+Nursing+Home/@13.788569,100.5948633,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xcb632c328604579a!8m2!3d13.788569!4d100.597052?hl=th-TH" target="_blank"><img src="{{ url('assets/images/location.png') }}"></a>
             <img src="{{ url('assets/images/facebook.png') }}">
         </div>
         <div>&copy; 2016 Think Active Company, Inc.</div>
