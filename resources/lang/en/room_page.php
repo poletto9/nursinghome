@@ -6,5 +6,6 @@ return [
 	'room_1' => 'Private Room 1',
 	'room_2' => 'Private Room 2',
 	'room_3' => 'Two-Bedded Room',
+	'room_4' => 'Standard Ward',
 	'detail_btn' => 'More datails',
 ];

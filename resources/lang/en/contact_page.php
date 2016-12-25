@@ -11,6 +11,8 @@ return [
     'name' => 'Name',
     'email' => 'Email',
     'message' => 'Message',
+    'telephone' => 'Telephone',
+    'date_time' => 'Convenient date and time',
     'copy' => 'Send me a copy.',
     'send' => 'Send',
     'map' => 'Google Map',

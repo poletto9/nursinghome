@@ -70,6 +70,15 @@
                                 <div class="form-group">
                                     <textarea class="form-control" rows="8" name="message" id="message" placeholder="{{ trans('contact_page.message') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.message') }}'"></textarea>
                                 </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" name="tel" id="tel" placeholder="{{ trans('contact_page.telephone') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.telephone') }}'">
+                                </div>
+                                <div>
+                                    {{ trans('contact_page.date_time') }}
+                                </div>
+                                <div class="form-group">
+                                    <input type="datetime-local" class="form-control" name="dt" id="dt" placeholder="{{ trans('contact_page.date_time') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.date_time') }}'">
+                                </div>
                                 {{--<div class="form-group">--}}
                                     {{--<div class="checkbox">--}}
                                         {{--<label>--}}

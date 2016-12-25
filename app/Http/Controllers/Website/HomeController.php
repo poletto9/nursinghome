@@ -44,6 +44,8 @@ class HomeController extends Controller{
         $name = Request::input('name');
         $email = Request::input('email');
         $message = Request::input('message');
+        $telephone = Request::input('tel');
+        $date_time = Request::input('dt');
 
         #lets first init the config
         ###########################
@@ -54,9 +56,9 @@ class HomeController extends Controller{
          * thinkactivecnx mailgun
          */
         #api key and domain (from mailgun.com panel)
-        //$secretkey='key-6b30e26007a9580ea808297c75368f32';
+//        $secretkey='key-6b30e26007a9580ea808297c75368f32';
         #source domain (you can add your own domain at mailgun panel and use it)
-        //$domain = "sandboxbc7d90120525484b948a2a3b6aa56c3d.mailgun.org";
+//        $domain = "sandboxbc7d90120525484b948a2a3b6aa56c3d.mailgun.org";
 
         # email options
         //$Option['FROM_MAIL']="postmaster@sandboxbc7d90120525484b948a2a3b6aa56c3d.mailgun.org";
@@ -66,7 +68,7 @@ class HomeController extends Controller{
          */
         #api key and domain (from mailgun.com panel)
         $secretkey='key-8149afe51e31337a6c273908bba95afb';
-        //source domain (you can add your own domain at mailgun panel and use it)
+        #source domain (you can add your own domain at mailgun panel and use it)
         $domain = "sandbox31d284f90769435888b8f55d87732bfa.mailgun.org";
 
         # email options
@@ -74,13 +76,13 @@ class HomeController extends Controller{
         $Option['FROM_NAME']="aecnursinghome MailGun";//any name you want it to appear
         $Option['TO_MAIL']="aecnursinghome.th@gmail.com";
         $Option['TO_NAME']="aecnursinghomethailand";
-//        $Option['TO_MAIL']="thinkactivecnx@gmail.com";
-//        $Option['TO_NAME']="ThinkactiveCNX";
+        //$Option['TO_MAIL']="thinkactivecnx@gmail.com";
+        //$Option['TO_NAME']="ThinkactiveCNX";
         //$Option['CC_MAIL']=$email;
         //$Option['CC_NAME']=$name;
         $Option['SUBJECT']="contact mail from customer";
-        $Option['BODY_TEXT']="Customer Name: ".$name."<br>"."Customer Email: ".$email."<br>"."Message: ".$message;// if html is not supported then use text message instead
-        $Option['BODY_HTML']="<b style='color:#000000'><div>Customer Name: ".$name."</div><div>Customer Email: ".$email."</div><div>Message: ".$message."</div></b>";
+        $Option['BODY_TEXT']="Customer Name: ".$name."<br>"."Customer Email: ".$email."<br>"."Message: ".$message."<br>"."Telephone: ".$telephone."<br>"."Convenient date and time:".$date_time;// if html is not supported then use text message instead
+        $Option['BODY_HTML']="<b style='color:#000000'><div>Customer Name: ".$name."</div><div>Customer Email: ".$email."</div><div>Message: ".$message."</div><div>Telephone: ".$telephone."</div><div>Convenient date and time: ".$date_time."</div></b>";
 
 //        $Option['BODY_TEXT']="Contact Name: A.E.C. Nursing Home Thailand"."<br>"."Contact Email: aecnursinghome.th@gmail.com"."<br>"."Customer Name: ".$name."<br>"."Customer Email: ".$email."<br>"."Message: ".$message;// if html is not supported then use text message instead
 //        $Option['BODY_HTML']="<b style='color:#000000'><div>Contact Name: A.E.C. Nursing Home Thailand</div><div>Contact Email: aecnursinghome.th@gmail.com</div><div>Customer Name: ".$name."</div><div>Customer Email: ".$email."</div><div>Message: ".$message."</div></b>";
@@ -126,7 +128,7 @@ class HomeController extends Controller{
 
         Session::flash('success', 'Your Email was Sent!');
 
-//        return back()->withInput();
+//      return back()->withInput();
         return View::make('contact_mail.thank_you');
     }
 

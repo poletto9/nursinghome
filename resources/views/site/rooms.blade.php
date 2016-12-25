@@ -42,6 +42,13 @@
                         <h5><a href="javascript:void(0)"><button id="myBtn3" class="button button1">{{ trans('room_page.detail_btn') }}</button></a></h5>
                     </div>
                 </div>
+                <div class="person col-xs-8 col-xs-offset-2 col-sm-4 col-sm-offset-0" style="background-image: url('images/room_cover/standard-ward.jpg');">
+                    <div class="info">
+                        <p>{{ trans('room_page.room_4') }}</p>
+                        {{--<p>[ 35.5 sq.m. ]</p>--}}
+                        <h5><a href="javascript:void(0)"><button id="myBtn4" class="button button1">{{ trans('room_page.detail_btn') }}</button></a></h5>
+                    </div>
+                </div>
             </div>
             <!-- TEAM ROW 1 END -->
             <!-- TEAM ROW 2 START -->
@@ -207,27 +214,27 @@
         <!-- END The Modal 3-->
 
         <!-- START The Modal 4-->
-        {{--<div id="myModal4" class="modal">--}}
-            {{--<!-- Modal content 1-->--}}
-            {{--<div class="modal-content" style="background: #eada85; border-top: 30px solid #2c0000; border-bottom: 30px solid #2c0000">--}}
-                {{--<span class="close">x</span>--}}
-                {{--<div class="row-fluid">--}}
-                    {{--<div class="image-gallery">--}}
-                        {{--<div class="big-image">--}}
-                            {{--<img id="room4_1" src="images/clients.jpg" />--}}
-                            {{--<img id="room4_2" src="images/clients.jpg" />--}}
-                            {{--<img id="room4_3" src="images/clients.jpg" />--}}
-                            {{--<img id="room4_4" src="images/clients.jpg" />--}}
-                            {{--<img id="default4" src="images/clients.jpg" />--}}
-                        {{--</div>--}}
-                        {{--<div>--}}
-                            {{--<a href="#room4_1"><img  class="img-thumbnail imageResize" src="images/clients.jpg" /></a>--}}
-                            {{--<a href="#room4_2"><img  class="img-thumbnail imageResize" src="images/clients.jpg" /></a>--}}
-                            {{--<a href="#room4_3"><img  class="img-thumbnail imageResize" src="images/clients.jpg" /></a>--}}
-                            {{--<a href="#room4_4"><img  class="img-thumbnail imageResize" src="images/clients.jpg" /></a>--}}
-                        {{--</div>--}}
-                        {{--<div class="by">--}}
-                        {{--</div>--}}
+        <div id="myModal4" class="modal">
+            <!-- Modal content 1-->
+            <div class="modal-content" style="background: #eada85; border-top: 30px solid #2c0000; border-bottom: 30px solid #2c0000">
+                <span class="close">x</span>
+                <div class="row-fluid">
+                    <div class="image-gallery">
+                        <div class="big-image">
+                            <img id="room4_1" src="images/standard_ward/2.jpg" />
+                            <img id="room4_2" src="images/standard_ward/3.jpg" />
+                            <img id="room4_3" src="images/standard_ward/4.jpg" />
+                            <img id="room4_4" src="images/standard_ward/5.jpg" />
+                            <img id="default4" src="images/standard_ward/1.jpg" />
+                        </div>
+                        <div>
+                            <a href="#room4_1"><img  class="img-thumbnail imageResize" src="images/standard_ward/2.jpg" /></a>
+                            <a href="#room4_2"><img  class="img-thumbnail imageResize" src="images/standard_ward/3.jpg" /></a>
+                            <a href="#room4_3"><img  class="img-thumbnail imageResize" src="images/standard_ward/4.jpg" /></a>
+                            <a href="#room4_4"><img  class="img-thumbnail imageResize" src="images/standard_ward/5.jpg" /></a>
+                        </div>
+                        <div class="by">
+                        </div>
                         {{--<div class="popup-img-content">--}}
                             {{--<h2>Standard Ward (5 beds)</h2>--}}
                             {{--<p class="tab article_content">Our Premium Standard Room comes with king sized bed--}}
@@ -239,11 +246,11 @@
                                 {{--<br>- Professional dry cleaning--}}
                             {{--</p>--}}
                         {{--</div>--}}
-                    {{--</div>--}}
+                    </div>
 
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
+                </div>
+            </div>
+        </div>
         <!-- END The Modal 3-->
     </section>
 

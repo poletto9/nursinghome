@@ -40,8 +40,8 @@ return [
     'address_1' => '17 soi Ladprao 64 Yak 6, Wang Tong-lang,',
     'address_2' => 'Wang Tong-lang district, Bangkok 10310',
     'thx_1' => 'Thank You For Your Contact',
-    'thx_2' => 'We will check this is a new introduction to our team and confirm',
-    'thx_3' => 'acceptance of the information within few hours.',
+    'thx_2' => 'We will check this is a new introduction to our team and confirm as soon as possible',
+    'thx_3' => 'Thank you',
     'btn_back' => 'Go to Contact us page',
     'menu' => 'Menu',
 ];
