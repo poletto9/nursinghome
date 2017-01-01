@@ -55,6 +55,26 @@ $('#submit-contact-form').click( function() {
         $('#message').parent().removeClass('has-error');
     }
 
+    var telephone = $('#tel').val();
+    if(telephone == "" || telephone == " "){
+        $('#tel').css('background-color', '#f2dede');
+        $('#tel').parent().addClass('has-error');
+        error = true;
+    } else {
+        $('#tel').css('background-color', '#fff');
+        $('#tel').parent().removeClass('has-error');
+    }
+
+    var data_time = $('#dt').val();
+    if(data_time == "" || data_time == " "){
+        $('#dt').css('background-color', '#f2dede');
+        $('#dt').parent().addClass('has-error');
+        error = true;
+    } else {
+        $('#dt').css('background-color', '#fff');
+        $('#dt').parent().removeClass('has-error');
+    }
+
     var data_string = $('#contact-form').serialize();
 
     if (error == false) {

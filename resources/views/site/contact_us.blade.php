@@ -62,22 +62,22 @@
                             <form role="form" id="contact-form" action="{{ url('contact-us') }}" method="POST" onsubmit="return validateForms()" enctype="multipart/form-data">
                                 {{ csrf_field() }}
                                 <div class="form-group">
-                                    <input type="text" class="form-control" name="name" id="name" placeholder="{{ trans('contact_page.name') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.name') }}'">
+                                    <input required type="text" class="form-control" name="name" id="name" placeholder="{{ trans('contact_page.name') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.name') }}'">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="{{ trans('contact_page.email') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.email') }}'">
+                                    <input required type="email" class="form-control" name="email" id="email" placeholder="{{ trans('contact_page.email') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.email') }}'">
                                 </div>
                                 <div class="form-group">
-                                    <textarea class="form-control" rows="8" name="message" id="message" placeholder="{{ trans('contact_page.message') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.message') }}'"></textarea>
+                                    <textarea required class="form-control" rows="8" name="message" id="message" placeholder="{{ trans('contact_page.message') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.message') }}'"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" name="tel" id="tel" placeholder="{{ trans('contact_page.telephone') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.telephone') }}'">
+                                    <input required type="tel" class="form-control" name="tel" id="tel" placeholder="{{ trans('contact_page.telephone') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.telephone') }}'">
                                 </div>
                                 <div>
                                     {{ trans('contact_page.date_time') }}
                                 </div>
                                 <div class="form-group">
-                                    <input type="datetime-local" class="form-control" name="dt" id="dt" placeholder="{{ trans('contact_page.date_time') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.date_time') }}'">
+                                    <input required type="datetime-local" class="form-control" name="dt" id="dt" placeholder="{{ trans('contact_page.date_time') }}" onfocus="this.placeholder=''" onblur="this.placeholder='{{ trans('contact_page.date_time') }}'">
                                 </div>
                                 {{--<div class="form-group">--}}
                                     {{--<div class="checkbox">--}}
@@ -94,8 +94,8 @@
                                 </div>
                             </form>
                             <!-- CONTACT FORM END -->
-                            <div class="alert alert-success alert-small" id="contact-success" style="display: none;"><i class="ion-checkmark-round"></i> <span>Message sent.</span></div>
-                            <div class="alert alert-danger alert-small" id="contact-error" style="display: none;"><i class="ion-close-round"></i> <span>Something is not working. Please try again.</span></div>
+                            {{--<div class="alert alert-success alert-small" id="contact-success" style="display: none;"><i class="ion-checkmark-round"></i> <span>Message sent.</span></div>--}}
+                            {{--<div class="alert alert-danger alert-small" id="contact-error" style="display: none;"><i class="ion-close-round"></i> <span>Something is not working. Please try again.</span></div>--}}
                         </div>
                         <!-- CONTACT OPTION 1 END -->
 
