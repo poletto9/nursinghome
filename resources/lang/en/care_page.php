@@ -11,8 +11,8 @@ return [
 	'care_2_paid' => 'Wages per hour 100-300 baht.',
 	'care_3' => 'Staff nurse / care for the elderly',
 	'care_3_desc' => 'Graduates of the school staff, care quality and are accredited by the Ministry of Education. Patients can be rehabilitated.',
-	'care_3_paid' => 'Paid 15,000 baht per month onwards.',
+	'care_3_paid' => 'Paid 15,000 baht per month onwards or 1,000 bath per day.',
 	'care_4' => 'Caregivers / user care',
 	'care_4_desc' => 'Care of elderly people with chronic diseases and elderly people who have no underlying diseases. As friends when the children were not at home. Or taking exercise by age Out walking the park or the mall. The staff can also massage it.',
-	'care_4_paid' => 'Paid 15,000 baht per month onwards.',
+	'care_4_paid' => 'Paid 15,000 baht per month onwards or 1,000 bath per day.',
 ];

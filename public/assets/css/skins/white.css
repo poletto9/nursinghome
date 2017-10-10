@@ -226,9 +226,9 @@ ul.pagination li.active a,
 
 	/*border: 1px solid #d58512;*/
 	/*border: 1px solid #ec971f;*/
-	border: 1px solid #C5B358;
+	border: 1px solid #006a6a;
 	color: #fff;
-	background: #C5B358	;
+	background: #008A8A	;
 }
 .nav-pills > li.active > a:after {
 	color: #e84c3d;
@@ -353,14 +353,14 @@ a.overlay i {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
 	background-color: #fafafa;
-	border-color: #a38d38;
-	color: #a38d38;
+	border-color: #006a6a;
+	color: #006a6a;
 	font-family: 'trirong-medium-webfont';
 	font-size: x-large;
 }
 .navbar-default .navbar-toggle:hover .icon-bar,
 .navbar-default .navbar-toggle:focus .icon-bar {
-	background-color: #a38d38;
+	background-color: #006a6a;
 }
 @media (max-width:767px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a, 

@@ -45,7 +45,7 @@ body {
 
 .navbar_header{
     /*background: #c7b972;*/
-    background: url("images/gingo002.png");
+    background: url("images/Qec4Hlg_1.png");
     padding: 15px; /* old value = 10*/
     color: #fff;
     text-align: center;
@@ -61,14 +61,7 @@ body {
 }
 
 .header_name{
-    font-size: 40px;
-    font-family: 'trirong-medium-webfont';
-    text-align: left;
-    padding: 20px 20px 0px 20px;
-    /*padding: 20px 20px 20px 70px;*/
-    /*text-shadow: 3px 2px 0px rgba(150, 150, 150, 1);*/
-    /*text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px, #ff8000 0 -10px 20px, red 0 -18px 40px;*/
-    text-shadow: #fff 0 -1px 4px, #ff0 0 -2px 10px;
+    padding: 20px 20px 20px 20px;
 }
 
 
@@ -97,9 +90,9 @@ body {
 
 .navbar_footer{
     /*background: #c7b972;*/
-    background: url("images/gingo002.png");
+    background: url("images/Qec4Hlg_1.png");
     padding: 10px;
-    color: #fff;
+    color: #006a6a;
     text-align: center;
 }
 
@@ -114,6 +107,12 @@ body {
     text-align: left;
     background-color: #f9fce6;
 }
+.body_promo{
+    padding: 20px 31px 40px 31px;
+    text-align: left;
+    background-color: #fcf5e5;
+}
+
 
 .body_service{
     padding: 40px 31px 20px 31px;
@@ -122,6 +121,11 @@ body {
 }
 
 .body_news{
+     padding: 20px 31px;
+     text-align: left;
+ }
+
+.body_team{
     padding: 20px 31px;
     text-align: left;
 }
@@ -142,6 +146,10 @@ body {
     background: #fbf3e9;
 }
 
+.new_panel_right_team{
+    background: #E7ECFB;
+}
+
 .news_right_content{
     padding: 15px
 }
@@ -155,7 +163,7 @@ body {
 }
 
 .article_name_about_us{
-    color: #f26d7d;
+    color: #006a6a;
     font-size: 28px;
     line-height: 60px;
 }
@@ -167,10 +175,25 @@ body {
     text-align: center;
 }
 
+.article_content_top{
+    color: #006a6a;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
 .article_content{
     color: #534741;
     font-size: 22px;
     line-height: 30px;
+}
+
+.span_green{
+    color: #006a6a;
+}
+
+.span_orange{
+    color: #eb7513;
 }
 
 .under_line{
@@ -197,12 +220,16 @@ body {
     border-left: 1px solid #fff;
 }
 
+.language-link{
+    color: #006a6a;
+}
+
 a:hover .language-link {
     text-decoration: none;
     /*border: 1px solid #ec971f;*/
-    border: 1px solid #C5B358;
+    border: 1px solid #006a6a;
     color: #fff;
-    background: #C5B358	;
+    background: #008A8A;
     /*background: #ec971f;*/
 }
 
@@ -279,7 +306,7 @@ a:hover .language-link {
     font-size: 22px;
     line-height: 30px;
     text-align: center;
-    border: solid 15px #c7b972;
+    border: solid 15px #006a6a;
 }
 
 /* End Rooms and Facility Content Page Style */
@@ -353,8 +380,10 @@ ul.topnav li.icon {display: none;}
 /* Responsive Navbar Menu 2 */
 
 .navbar-menu-font ul li a{
+	text-shadow: 2px 2px 5px #ffffff;
     font-family: 'trirong-medium-webfont';
     font-size: 20px;
     text-transform: uppercase;
+    color: #006a6a;
 }
 /* End Responsive Navbar Menu 2 */

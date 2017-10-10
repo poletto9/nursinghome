@@ -59,7 +59,7 @@
         <br>
         <div class="row">
             <div class="col-lg-3 col-md-4">
-                <img src="{{ url('assets/images/sick_care.jpg') }}" class="img-thumbnail">
+                <img src="{{ url('assets/images/caregiver_02.jpg') }}" class="img-thumbnail">
             </div>
             <div class="col-lg-9 col-md-8" >
                 <div class="article_care_content">
@@ -80,7 +80,7 @@
         <br>
         <div class="row">
             <div class="col-lg-3 col-md-4">
-                <img src="{{ url('assets/images/old_care.jpg') }}" class="img-thumbnail">
+                <img src="{{ url('assets/images/caregiver_01.jpg') }}" class="img-thumbnail">
             </div>
             <div class="col-lg-9 col-md-8" >
                 <div class="article_care_content">
@@ -98,10 +98,10 @@
                 </div>
             </div>
         </div>
-        <br>
-        <div style="text-align: center">
-            <a href="http://www.homehelpersthailand.com/" target="-_blank" class="btn btn-link btn-default">Visit Caregiver Website <i class="fa fa-angle-right"></i></a>
-        </div>
+        {{--<br>--}}
+        {{--<div style="text-align: center">--}}
+            {{--<a href="http://www.homehelpersthailand.com/" target="-_blank" class="btn btn-link btn-default">Visit Caregiver Website <i class="fa fa-angle-right"></i></a>--}}
+        {{--</div>--}}
     </div>
 
 @stop

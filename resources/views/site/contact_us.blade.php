@@ -25,7 +25,7 @@
                     <!-- CONTACT HAS 2 OPTIONS: Form based (option 1) and Address/Phone/Social (option 2) -->
                     <div class="row">
                         <!-- CONTACT OPTION 1 START -->
-                        <div class="option col-lg-5 col-md-6 col-sm-6">
+                        <div class="option col-lg-6 col-md-6 col-sm-6">
 
                             <div style="text-align: left" class="article_content">
                                 <div class="media">
@@ -43,7 +43,7 @@
                                     <i class="pull-left ion-ios7-telephone-outline fa-2x text-muted"></i>
                                     <div class="media-body">
                                         <p>{{ trans('contact_page.con_fax') }} 02-530-2199</p>
-                                        <p>{{ trans('contact_page.con_mobile') }} 098-287-7287, 090-004-6331</p>
+                                        <p>{{ trans('contact_page.con_mobile') }} 061-707-1555, 090-004-6331</p>
                                         <p>
                                             {{ trans('contact_page.con_email') }}
                                             <a class="article_link" href="mailto:aecnursinghome.th@gmail.com">aecnursinghome.th@gmail.com</a>
@@ -51,7 +51,9 @@
                                     </div>
                                 </div>
                                 <div class="media">
+                                    <i class="pull-left fa fa-2x fa-facebook-square"></i>
                                     <div class="media-body">
+                                        <p><a class="article_link" href="https://www.facebook.com/aec.nursinghome" target="_blank">https://www.facebook.com/aec.nursinghome</a></p>
                                         <hr>
                                     </div>
                                 </div>
@@ -101,17 +103,17 @@
 
 
                         <!-- CONTACT OPTION 2 START -->
-                        <div class="option col-lg-7 col-md-6 col-sm6">
+                        <div class="option col-lg-6 col-md-6 col-sm6">
                             <div class="media">
                                 <div class="media-body">
                                     <?php
                                         if( \Illuminate\Support\Facades\Session::get('locale') == 'th' || \Illuminate\Support\Facades\Session::get('locale') == ''){ ?>
-                                        <a class="fancybox-effects-a" href="{{ url('assets/images/Map1.jpg') }}">
-                                            <img src="{{ url('assets/images/Map1.jpg') }}" alt="">
+                                        <a class="fancybox-effects-a" href="{{ url('assets/images/map_new.jpg') }}">
+                                            <img src="{{ url('assets/images/map_new.jpg') }}" alt="">
                                         </a>
                                     <?php    }else{ ?>
                                         <a class="fancybox-effects-a" href="{{ url('assets/images/Map_eng.jpg') }}">
-                                            <img src="{{ url('assets/images/Map_eng.jpg') }}" alt="">
+                                            <img src="{{ url('assets/images/map_new.jpg') }}" alt="">
                                         </a>
                                     <?php    }
                                     ?>
@@ -135,7 +137,8 @@
                                     </p>
                                 </div>
                                 <div class="article_content"><strong>{{ trans('contact_page.line') }}</strong></div>
-                                <div><a href="https://line.me/R/ti/p/%40mzm5743z" target="_blank"><img src="{{url('assets/images/line_id.png')}}"></a></div>
+                                <div class="article_content"><strong>@aec.nursinghome</strong></div>
+                                <div><a href="https://line.me/R/ti/p/%40aec.nursinghome" target="_blank"><img src="{{url('assets/images/line_id.png')}}"></a></div>
                             </div>
                         </div>
                         <!-- CONTACT OPTION 2 END -->

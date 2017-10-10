@@ -51,27 +51,42 @@
                     </p>
                 </div>
             </div>
-            <div class="article_content" style="text-align: left">
-                <div class="col-lg-2 col-md-1">
-
-                </div>
-                <div class="col-lg-8 col-md-10">
-                    <ul>
-                        <li class="under_line">• {{ trans('service_page.service_1') }}</li>
-                        <li class="under_line">• {{ trans('service_page.service_2') }}</li>
-                        <li class="under_line">• {{ trans('service_page.service_3') }}</li>
-                        <li class="under_line">• {{ trans('service_page.service_4') }}</li>
-                        <li class="under_line">• {{ trans('service_page.service_5') }}</li>
-                        <li class="under_line">• {{ trans('service_page.service_6') }}</li>
-                        <li class="under_line">• {{ trans('service_page.service_7') }}</li>
-                        <li class="under_line">• {{ trans('service_page.service_8') }}</li>
-                        <li class="under_line">• {{ trans('service_page.service_9') }}</li>
-                        <li class="under_line">• {{ trans('service_page.service_10') }}</li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-1">
-
-                </div>
+            <div class="article_room_content">
+                <p class="tab">
+                    {{ trans('service_page.service_desc') }}<span class="span_green"><b>{{trans('service_page.service_desc_1')}}</b></span>{{trans('service_page.service_desc_2')}}
+                </p>
+                <p class="tab">
+                    {{ trans('service_page.service_desc_etc') }}
+                </p>
+                <p class="tab">
+                    <span class="span_orange">{{ trans('service_page.service_1') }}</span>{{ trans('service_page.service_2') }}
+                </p>
+                <p class="tab">
+                    {{ trans('service_page.service_3') }}<span class="span_orange">{{ trans('service_page.service_4') }}</span>{{ trans('service_page.service_5') }}
+                </p>
+                <p class="tab">
+                    <span class="span_orange">{{ trans('service_page.service_6') }}</span>{{ trans('service_page.service_7') }}
+                </p>
+                <p class="tab">
+                    <span class="span_orange">{{ trans('service_page.service_8') }}</span>{{ trans('service_page.service_9') }}
+                    <span class="span_orange">{{ trans('service_page.service_10') }}</span>{{ trans('service_page.service_11') }}
+                </p>
+                <p class="tab">
+                    <span class="span_orange">{{ trans('service_page.service_12') }}</span>{{ trans('service_page.service_13') }}
+                    <a href="{{ url('care-giver') }}" target="_self"><span class="span_orange">{{ trans('service_page.service_14') }}</span></a>
+                </p>
+                <p class="tab" style="color: #006a6a;">
+                    <b><u>{{ trans('service_page.service_15') }}</u></b>
+                </p>
+                <p class="tab">
+                    <b><u>{{ trans('service_page.service_16') }}</u></b>{{ trans('service_page.service_17') }}
+                </p>
+                <p class="tab">
+                   <b><u>{{ trans('service_page.service_18') }}</u></b>{{ trans('service_page.service_19') }}
+                </p>
+                <p class="tab">
+                    <b><u>{{ trans('service_page.service_20') }}</u></b>{{ trans('service_page.service_21') }}
+                </p>
             </div>
         </div>
     </div>

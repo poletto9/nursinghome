@@ -3461,8 +3461,8 @@ a.overlay.small i {
 	margin: 0px 0 0px;
 	/*background-color: #fafafa;*/
 	/*border-color: #f1f1f1;*/
-	background: #c7b972;
-	border: #c7b972;
+	background: #80B5B8;
+	border: #006a6a;
 }
 .header-small .navbar.navbar-default {
 	margin: 6px 0 5px;
@@ -3711,7 +3711,7 @@ a.overlay.small i {
 	/*border-color: #ccc;*/
 	background-color: #fafafa;
 	border-color: #fff;
-	color: #a38d38;
+	color: #006a6a;
 	font-family: 'trirong-medium-webfont';
 	font-size: x-large;
 }

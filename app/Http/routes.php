@@ -22,7 +22,8 @@ Route::get('contact-request','Website\HomeController@contact_request');
 Route::get('thank-you-for-contact','Website\HomeController@thank_contact');
 
 /* Article */
-Route::get('article/01','Website\HomeController@article_01');
+Route::get('article_01','Website\HomeController@article_01');
+Route::get('article_02','Website\HomeController@article_02');
 
 /* Multi Language Page */
 Route::get('change/{locale}','Website\HomeController@change_language');

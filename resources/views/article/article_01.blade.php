@@ -10,7 +10,7 @@
                 <div class="row news_right_content">
                     <div class="col-lg-3 col-md-4">
                         <div>
-                            <img src="{{ url('assets/images/caregiver.jpg') }}" class="img-thumbnail">
+                            <img src="{{ url('assets/images/caregiver_01.jpg') }}" class="img-thumbnail">
                         </div>
                     </div>
                     <div class="col-lg-9 col-md-8">

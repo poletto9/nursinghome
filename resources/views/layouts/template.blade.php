@@ -9,10 +9,12 @@
     <meta name="google-translate-customization" content="b90adbbc52fb36b1-37c320bc66433c93-gfafe45677761b348-15">
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>A.E.C. Nursing Home Thailand</title>
+    {{--<title>A.E.C. Nursing Home Thailand</title>--}}
+
+    <title>AEC Healthy Center and Nursing Home: AEC H&N</title>
 
     <!-- Icon -->
-    <link rel="shortcut icon" href="{{ url('assets/images/favicon.ico') }}"/>
+    <link rel="shortcut icon" href="{{ url('assets/images/aec_logo_AbU_icon.ico') }}"/>
 
     <!-- Responsive jQuery Slideshow -->
     <link rel="stylesheet" href="{{ url('assets/css/responsiveslides.css') }}">
@@ -121,8 +123,11 @@
 
                 </div>
             </div>
+            {{--<div class="header_name">--}}
+                {{--A.E.C. Nursing Home Thailand--}}
+            {{--</div>--}}
             <div class="header_name">
-                A.E.C. Nursing Home Thailand
+                <img src="{{ url('assets/images/AEC_Green_Banner.png') }}">
             </div>
 
             <!-- responsive menu 1 -->
@@ -204,12 +209,12 @@
        </div>
         <div>
             <img src="{{ url('assets/images/telephone.png') }}" class="footer_img">
-            02-530-2199, 098-287-7287, 090-004-6331</div>
+            02-530-2199, 061-707-1555, 090-004-6331</div>
         <div class="footer_img_group">
             <a href="https://line.me/R/ti/p/%40mzm5743z" target="_blank"><img src="{{ url('assets/images/line.png') }}"></a>
             <a class="article_link" href="mailto:aecnursinghome.th@gmail.com"><img src="{{ url('assets/images/email.png') }}"></a>
             <a href="https://www.google.com/maps/place/AEC+Nursing+Home/@13.788569,100.5948633,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0xcb632c328604579a!8m2!3d13.788569!4d100.597052?hl=th-TH" target="_blank"><img src="{{ url('assets/images/location.png') }}"></a>
-            <img src="{{ url('assets/images/facebook.png') }}">
+            <a href="https://www.facebook.com/aec.nursinghome" target="_blank"><img src="{{ url('assets/images/facebook.png') }}"></a>
         </div>
         <div>&copy; 2016 Think Active Company, Inc.</div>
     </div>
@@ -302,6 +307,17 @@
                 x.className = "topnav";
             }
         }
+    </script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-100487611-1', 'auto');
+        ga('send', 'pageview');
+
     </script>
 
 </body>

@@ -17,6 +17,63 @@
                     <p class="tab">
                         {{ trans('room_page.room_desc') }}
                     </p>
+                    <p>
+                        <img src="{{ url('assets/images/price_detail.jpg') }}">
+                    </p>
+                    <p>
+                        {{ trans('room_page.budget_desc_1') }}
+                    </p>
+                    <p class="tab">
+                        {{ trans('room_page.budget_desc_1_1') }}
+                    </p>
+                    <p class="tab">
+                        {{ trans('room_page.budget_desc_1_2') }}
+                    </p>
+                    <p class="tab">
+                        {{ trans('room_page.budget_desc_1_3') }}
+                    </p>
+                    <p class="tab">
+                        {{ trans('room_page.budget_desc_1_4') }}
+                    </p>
+                    <p class="tab">
+                        {{ trans('room_page.budget_desc_1_5') }}
+                    </p>
+                    <p>
+                        {{ trans('room_page.budget_desc_2') }}
+                    </p>
+                    <p class="tab">
+                        {{ trans('room_page.budget_desc_2_1') }}
+                    </p>
+                    <p class="tab">
+                        {{ trans('room_page.budget_desc_2_2') }}
+                    </p>
+                    <p class="tab">
+                        {{ trans('room_page.budget_desc_2_3') }}
+                    </p>
+                </div>
+                <div class="col-xs-12">
+                    <div>
+                        <p class="fancy">
+                            {{--<span>Room Types</span>--}}
+                            <span>{{ trans('room_page.etc_head') }}</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="article_room_content">
+                    <p class="tab">
+                        {{ trans('room_page.etc_desc_1') }}
+                    </p>
+                    <p class="tab">
+                        {{ trans('room_page.etc_desc_2') }}
+                    </p>
+                </div>
+                <div class="col-xs-12">
+                    <div>
+                        <p class="fancy">
+                            {{--<span>Room Types</span>--}}
+                            <span>{{ trans('room_page.room_type') }}</span>
+                        </p>
+                    </div>
                 </div>
             </div>
             <!-- TEAM ROW 1 START -->

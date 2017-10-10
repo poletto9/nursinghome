@@ -170,6 +170,10 @@ class HomeController extends Controller{
         return View::make('article/article_01');
     }
 
+    public function article_02(){
+        return View::make('article/article_02');
+    }
+
     public function change_language($locale){
         Session::put('locale', $locale); // กำหนดค่าตัวแปรแบบ locale session ให้มีค่าเท่ากับตัวแปรที่ส่งเข้ามา
         return Redirect::back(); // สั่งให้โหลดหน้าเดิม

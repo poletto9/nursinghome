@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>A.E.C. Nursing Home Thailand</title>
+    <title>AEC Nursing Home Thailand</title>
 
     <!-- Icon -->
     <link rel="shortcut icon" href="{{ url('assets/images/favicon.ico') }}"/>
@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div class="header_name">
-                A.E.C. Nursing Home Thailand
+                AEC Nursing Home Thailand
             </div>
             {{--<div class="row no-padding navbar_menu">--}}
                 {{--<div class="col-lg-2 col-md-2">--}}
@@ -181,7 +181,7 @@
 
     <!-- FOOTER -->
     <div class="navbar_footer">
-        <div class="footer_name">A.E.C. Nursing Home Thailand</div>
+        <div class="footer_name">AEC Nursing Home Thailand</div>
         <div><img src="{{ url('assets/images/address.png') }}" class="footer_img">
                     17 Soi Ladprao 64, Road jungtion 4 Wang Thong Lang,<br>
             Wang Thong Lang district,  Bangkok 10310</div>
